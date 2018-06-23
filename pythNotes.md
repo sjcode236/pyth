@@ -1,5 +1,6 @@
 
-
+ 
+## check the  wiki
 http://linux.macrofinances.com/index.php/2016/02/12/python-django/
 
 http://scikit-learn.org/stable/tutorial/basic/tutorial.html
