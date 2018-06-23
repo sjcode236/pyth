@@ -1,1 +1,2 @@
-# pyth  notes 
+### pyth  notes 
+##check the  wiki
