@@ -1,5 +1,50 @@
 
 
+pycharm is commercail 
+    -> community edition of pycharm is free
+    https://www.jetbrains.com/pycharm
+    
+====================================================
+Instructor
+Rob Gance email:  gancelot@yahoo.com
+Student Manual:    
+https://www.dropbox.com/s/d0ijr59fbodkxb5/IN1467%20Intensive%20Introduction%20to%20Python.pdf?dl=0
+Instructor Slides:   
+https://www.dropbox.com/s/yehczglqt4mmjcm/IN1467_Intensive_Introduction_to_Python_instructor_slides.pdf?dl=0
+Student files:   
+https://www.dropbox.com/s/nko3ugjkwcukmq0/IN1467_student_files.zip?dl=0
+===========================================================   
+pycharm 
+  file -> settings -> Project: student_files -> Project  Interpreter (here you can select the python interpretor)
+  tools ->  Python console 
+
+============================================= 
+https://regex101.com/tests
+https://txt2re.com/
+gancelot@yahoo.com  
+
+Good url:
+https://automatetheboringstuff.com
+
+Similar to our course, nothing advanced:
+https://python.swaroopch.com/stdlib.html
+
+Another Python tutorial:     
+http://thepythonguru.com/    
+
+Long, time, recommended Python tutorial resource:    
+https://learnpythonthehardway.org/book/    
+
+Decebt slide-based tutorial:    
+https://stephensugden.com/crash_into_python/     
+
+Contains some intermediate topics (generators, decorators, ...):     
+http://www.learnpython.org/      
+
+http://www.diveintopython3.net/    
+
+***********************************************************************************************
+
 ------------------------------
 import sys
 print(sys.version)
