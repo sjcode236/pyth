@@ -1,7 +1,7 @@
 
 
 pycharm is commercail 
-    -> community edition of pycharm is free
+    => community edition of pycharm is free
     https://www.jetbrains.com/pycharm
 https://www.python.org/downloads/
 ====================================================
