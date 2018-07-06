@@ -45,9 +45,14 @@ http://www.diveintopython3.net/
 
 ***********************************************************************************************
 
-------------------------------
+
+
+---------------------------------------------------------------------------------------------
 import sys
 print(sys.version)
+
+C:\ProgramData\Anaconda3\python.exe
+C:\Users\dtc_train_wsnc_wec8\Documents\student_files\ch01_overview\04_sorting.py
 
 def my_func(greeting):
     print(greeting)
