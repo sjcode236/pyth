@@ -7,6 +7,13 @@ configure=>settings=> (serach  project interpreter ) ->
 	
 https://www.python.org/downloads/     => download Windows x86-64 executable installer
 	https://www.youtube.com/watch?v=0y5XlNeFxNk
+		
+===========================================================   
+pycharm 
+  file -> settings -> Project: student_files -> Project  Interpreter (here you can select the python interpretor)
+		ctrl-alt-s  ==>  this shortcout will open  project interpreter dialog
+		select the interpreter from the drop down list
+  tools ->  Python console 
 ====================================================
 Instructor
 Rob Gance email:  gancelot@yahoo.com
@@ -16,10 +23,6 @@ Instructor Slides:
 https://www.dropbox.com/s/yehczglqt4mmjcm/IN1467_Intensive_Introduction_to_Python_instructor_slides.pdf?dl=0
 Student files:   
 https://www.dropbox.com/s/nko3ugjkwcukmq0/IN1467_student_files.zip?dl=0
-===========================================================   
-pycharm 
-  file -> settings -> Project: student_files -> Project  Interpreter (here you can select the python interpretor)
-  tools ->  Python console 
 
 ============================================= 
 https://regex101.com/tests
