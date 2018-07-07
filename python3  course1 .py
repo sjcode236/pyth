@@ -3,7 +3,9 @@
 pycharm is commercail 
     => community edition of pycharm is free
     https://www.jetbrains.com/pycharm
+	
 https://www.python.org/downloads/
+	https://www.youtube.com/watch?v=0y5XlNeFxNk
 ====================================================
 Instructor
 Rob Gance email:  gancelot@yahoo.com
