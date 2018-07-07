@@ -7,7 +7,8 @@ configure=>settings=> (serach  project interpreter ) ->
 	
 https://www.python.org/downloads/     => download Windows x86-64 executable installer
 	https://www.youtube.com/watch?v=0y5XlNeFxNk
-		
+https://www.jetbrains.com/help/pycharm/creating-and-running-your-first-python-project.html
+	
 ===========================================================   
 pycharm 
   file -> settings -> Project: student_files -> Project  Interpreter (here you can select the python interpretor)
