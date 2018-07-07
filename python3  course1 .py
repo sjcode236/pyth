@@ -3,8 +3,9 @@
 pycharm is commercail 
     => community edition of pycharm is free
     https://www.jetbrains.com/pycharm
+configure=>settings=> (serach  project interpreter ) ->
 	
-https://www.python.org/downloads/
+https://www.python.org/downloads/     => download Windows x86-64 executable installer
 	https://www.youtube.com/watch?v=0y5XlNeFxNk
 ====================================================
 Instructor
