@@ -29,8 +29,10 @@ To install Python 3.6, run the following steps:
 # cd Python-3.6.3
 # ./configure
 # make
-# make install  
+# make install 
 
+# which python3
+# python3 -V
     
  
   
