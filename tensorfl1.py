@@ -24,5 +24,5 @@ http://www.tensorflow.org/get_started/eager
 ==>  in jupytor Notebook use   shift-enter  to execute the code 
 
 
-
+ 
 
