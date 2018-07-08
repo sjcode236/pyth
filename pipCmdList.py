@@ -37,6 +37,12 @@ To install Python 3.6, run the following steps:
 python2.8  install pip and python 3.6  install pip3
 /usr/local/bin/pip3  
 python2.7 is  python  and python3.6 is python3
+/usr/bin/python -> python2
+/usr/local/bin/python3 -> python3.6
+
+
+
+
 
 
 
