@@ -18,5 +18,19 @@ On Linux or macOS:
 On Windows [4]:
     python -m pip install -U pip
     
+===Installing python3.6 ==============================================================
+https://www.tecmint.com/install-python-in-linux/
+==Prior to installing Python in CentOS 7, let’s make sure our system has all the necessary development dependencies:
+# yum -y groupinstall development
+# yum -y install zlib-devel
+To install Python 3.6, run the following steps:
+# wget https://www.python.org/ftp/python/3.6.3/Python-3.6.3.tar.xz
+# tar xJf Python-3.6.3.tar.xz
+# cd Python-3.6.3
+# ./configure
+# make
+# make install  
+
+    
  
   
