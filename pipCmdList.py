@@ -18,7 +18,7 @@ On Linux or macOS:
 On Windows [4]:
     python -m pip install -U pip
     
-===Installing python3.6 ==============================================================
+===Installing python3.6 =====This version has pip already installed=========================================
 https://www.tecmint.com/install-python-in-linux/
 ==Prior to installing Python in CentOS 7, let’s make sure our system has all the necessary development dependencies:
 # yum -y groupinstall development
