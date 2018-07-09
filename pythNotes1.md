@@ -21,8 +21,10 @@ pip install -U scikit-learn
   pip install -U sklearn       
   pip uninstall scikit-learn               
       
-    
 
+Step-by-Step Tutorial for Apache Spark Installation    
+https://www.dezyre.com/apache-spark-tutorial/apache-spark-installation-tutorial    
+    
 SPARK install  notes          
 wget http://mirror.fibergrid.in/apache/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.4.tgz  (or download from apache spark web)        
 Decompress the Spark file into /softw directory    
