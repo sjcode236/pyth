@@ -42,7 +42,18 @@ python2.7 is  python  and python3.6 is python3
 
 
 ========================================================================
+
+https://pip.pypa.io/en/stable/reference/pip/
 pip3 --help
+pip install bar
+$ pip3 list
+$ pip list --format columns
+$ pip show sphinx
+$ pip3 show --verbose sphinx
+
+$ pip check
+pyramid 1.5.2 requires WebOb, which is not installed.
+
 
 
 
