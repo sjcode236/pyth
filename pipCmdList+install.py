@@ -64,6 +64,17 @@ To install Python 3.6, run the following steps:
 # make install 
 # which python3
 # python3 --version
+           OR        
+wget http://python.org/ftp/python/3.6.3/Python-3.6.3.tar.xz
+tar xf Python-3.6.3.tar.xz
+cd Python-3.6.3
+./configure --prefix=/usr/local --enable-shared LDFLAGS="-Wl,-rpath /usr/local/lib"
+make && make altinstall
+
+wget https://bootstrap.pypa.io/get-pip.py
+# Then execute it using Python 2.7 and/or Python 3.6:
+python2.7 get-pip.py
+python3.6 get-pip.py
 ====Installing python2.7.14===================================
 https://danieleriksson.net/2017/02/08/how-to-install-latest-python-on-centos/
 https://docs.snowflake.net/manuals/user-guide/python-install.html
@@ -79,10 +90,12 @@ yum install -y wget
 
 wget http://python.org/ftp/python/2.7.14/Python-2.7.14.tar.xz
 tar xf Python-2.7.14.tar.xz
-or
+cd Python-2.7.14
+   OR
 curl -O https://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz
 tar xvfz Python-2.7.10.tgz
-cd Python-2.7.14
+cd Python-2.7.10
+
 ./configure --prefix=/usr/local --enable-unicode=ucs4 --enable-shared LDFLAGS="-Wl,-rpath /usr/local/lib"
 ./configure --prefix=/usr/local --enable-unicode=ucs4 --enable-shared 
 make  
