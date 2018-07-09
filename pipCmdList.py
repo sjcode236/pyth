@@ -41,6 +41,8 @@ python2.7 is  python  and python3.6 is python3
 /usr/local/bin/python3 -> python3.6
 
 
+========================================================================
+pip3 --help
 
 
 
