@@ -18,6 +18,25 @@ On Linux or macOS:
 On Windows [4]:
     python -m pip install -U pip
     
+===================================================================================
+python2.8  install pip and python 3.6  install pip3
+/usr/local/bin/pip3  
+python2.7 is  python  and python3.6 is python3
+/usr/bin/python -> python2
+/usr/local/bin/python3 -> python3.6
+========================================================================
+
+https://pip.pypa.io/en/stable/reference/pip/
+pip3 --help
+pip install bar
+$ pip3 list
+$ pip list --format columns
+$ pip show sphinx
+$ pip3 show --verbose sphinx
+
+$ pip check
+pyramid 1.5.2 requires WebOb, which is not installed.
+
 ===Installing python3.6 =====This version has pip already installed=========================================
 https://www.tecmint.com/install-python-in-linux/
 ==Prior to installing Python in CentOS 7, let’s make sure our system has all the necessary development dependencies:
@@ -32,27 +51,22 @@ To install Python 3.6, run the following steps:
 # make install 
 
 # which python3
-# python3 -V
-===================================================================================
-python2.8  install pip and python 3.6  install pip3
-/usr/local/bin/pip3  
-python2.7 is  python  and python3.6 is python3
-/usr/bin/python -> python2
-/usr/local/bin/python3 -> python3.6
+# python3 --version
+
+====Installing python2.7.14===================================
+https://danieleriksson.net/2017/02/08/how-to-install-latest-python-on-centos/
+https://docs.snowflake.net/manuals/user-guide/python-install.html
+# Start by making sure your system is up-to-date:
+yum update
+# Compilers and related tools:
+yum groupinstall -y "development tools"  or yum groupinstall -y development
+# Libraries needed during compilation to enable all features of Python:
+yum install -y zlib-devel openssl-devel sliteq-devel bzip2-devel
+yum install -y zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel expat-devel
+# If you are on a clean "minimal" install of CentOS you also need the wget tool:
+yum install -y wget
 
 
-========================================================================
-
-https://pip.pypa.io/en/stable/reference/pip/
-pip3 --help
-pip install bar
-$ pip3 list
-$ pip list --format columns
-$ pip show sphinx
-$ pip3 show --verbose sphinx
-
-$ pip check
-pyramid 1.5.2 requires WebOb, which is not installed.
 
 
 
