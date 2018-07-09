@@ -21,10 +21,7 @@ pip install -U scikit-learn
   pip install -U sklearn       
   pip uninstall scikit-learn               
       
-export PATH=$SPARK_HOME/bin:$PATH            
-Source the changed .bashrc file by the command                  
-source  ~/.bashrc     
-We have successfully configured spark in standalone mode. To check let’s launch the Spark Shell by the following command:      
+    
 
 SPARK install  notes          
 wget http://mirror.fibergrid.in/apache/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.4.tgz  (or download from apache spark web)        
