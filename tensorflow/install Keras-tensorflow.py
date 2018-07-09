@@ -9,7 +9,8 @@ $ pip install numpy scipy
 $ pip install scikit-learn
 $ pip install pillow
 $ pip install h5py
-$pip install keras
+$ pip install matplotlib
+$ pip install keras
 
 
 
