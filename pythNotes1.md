@@ -27,20 +27,14 @@ Hello, TensorFlow!
 >>> b = tf.constant(32)    
 >>> print(sess.run(a + b))    
 42    
->>>    
+       
 Test Keras installation:    
-    
 $ python    
-...    
 >>> import keras    
 Using TensorFlow backend    
 >>> exit()    
     
     
-
-
-
-   
     
 pip install -U scikit-learn         
   pip install -U sklearn       
