@@ -12,7 +12,32 @@ If you already have a working installation of numpy and scipy, the easiest way t
 pip isntall NumPy     
 pip install SciPy     
 pip install --upgrade pip   
-pip install TensorFlow   
+pip install TensorFlow    
+pip install keras   
+    
+Test Tensorflow installation:    
+$ python    
+...    
+>>> import tensorflow as tf    
+>>> hello = tf.constant('Hello, TensorFlow!')    
+>>> sess = tf.Session()    
+>>> print(sess.run(hello))    
+Hello, TensorFlow!    
+>>> a = tf.constant(10)    
+>>> b = tf.constant(32)    
+>>> print(sess.run(a + b))    
+42    
+>>>    
+Test Keras installation:    
+    
+$ python    
+...    
+>>> import keras    
+Using TensorFlow backend    
+>>> exit()    
+    
+    
+
 
 
    
