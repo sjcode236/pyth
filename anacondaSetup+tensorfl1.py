@@ -19,7 +19,7 @@ start ->  anaconda   navigator
 
 ==>  (at) Home  =>  click Jupytor notebook 
 
-copy the commands at  below link and do a test run 
+copy the commands at  below link and do a test run   (shift+enter to run a code block)
 http://www.tensorflow.org/get_started/eager
 ==>  in jupytor Notebook use   shift-enter  to execute the code 
 
