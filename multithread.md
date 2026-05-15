@@ -2,7 +2,9 @@
 multiprocessing and multithreading:-    
 In Python, the choice between multiprocessing and multithreading depends on whether your task is "waiting" for something else or doing heavy "thinking."    
 - Multithreading is for I/O-bound tasks (waiting for network, disk, or user input). It lets multiple tasks appear to run at once while sharing the same memory.    
-- Multiprocessing is for CPU-bound tasks (heavy calculations). It bypasses Python's Global Interpreter Lock (GIL) by giving each task its own CPU core and memory space
+- Multiprocessing is for CPU-bound tasks (heavy calculations). It bypasses Python's Global Interpreter Lock (GIL) by giving each task its own CPU core and memory space   
+Multithreading allows multiple tasks to run within a single process. Because Python’s Global Interpreter Lock (GIL) only allows one thread to execute Python code at a time.  Multiprocessing creates separate instances of the Python interpreter, each with its own memory and its own GIL. This allows tasks to run in parallel across multiple CPU cores. Multithreading: This refers to the ability of a processor to execute multiple threads concurrently, where each thread runs a process.
+Multiprocessing: This refers to the ability of a system to run multiple processors in parallel, where each processor can run one or more threads.     
 
 Receiver Example: Multithreading vs. Multiprocessing  
 1. Multithreading Example (The "I/O Receiver"):-  Best for when your receiver spends most of its time waiting for incoming network packets.    
