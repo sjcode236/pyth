@@ -5,7 +5,7 @@ In Python, the choice between multiprocessing and multithreading depends on whet
 - Multiprocessing is for CPU-bound tasks (heavy calculations). It bypasses Python's Global Interpreter Lock (GIL) by giving each task its own CPU core and memory space
 
 Receiver Example: Multithreading vs. Multiprocessing  
-1. Multithreading Example (The "I/O Receiver")Best for when your receiver spends most of its time waiting for incoming network packets.    
+1. Multithreading Example (The "I/O Receiver"):-  Best for when your receiver spends most of its time waiting for incoming network packets.    
 ```
 import threading
 import time
@@ -26,7 +26,7 @@ for i in range(3):
 for t in threads:
     t.join()
 ```
-2. Multiprocessing Example (The "Parallel Receiver")     
+2. Multiprocessing Example (The "Parallel Receiver"):-
 Best if your receiver has to perform complex decryption or heavy data parsing on every incoming message.
 ```
 import multiprocessing
