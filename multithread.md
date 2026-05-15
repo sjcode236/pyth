@@ -1,4 +1,5 @@
-
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄      
+══════════════════════════════════════════    
 multiprocessing and multithreading:-    
 In Python, the choice between multiprocessing and multithreading depends on whether your task is "waiting" for something else or doing heavy "thinking."    
 - Multithreading is for I/O-bound tasks (waiting for network, disk, or user input). It lets multiple tasks appear to run at once while sharing the same memory.    
@@ -50,6 +51,52 @@ if __name__ == "__main__":
     for p in processes:
         p.join()
 ```
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄      
+══════════════════════════════════════════      
+
+Using Gunicorn for production in Python (Flask/FastAPI) provides stability, concurrent request handling, and process management that development servers lack. Adding dedicated /healthz and /readyz endpoints ensures that orchestration tools like Kubernetes or Docker can monitor app liveness and traffic readiness.     
+1. Implementation Example (FastAPI + Gunicorn)This approach adds endpoints that indicate whether the application is running (liveness) and ready to handle traffic (readiness), such as waiting for database connections   
+3. Explanation of Endpoints    
+/healthz (Liveness Probe): Tells orchestrators if the container is running. If this fails, the container is restarted. It should be lightweight, simply returning a 200 OK status.
+/readyz (Readiness Probe): Tells orchestrators if the app is ready to accept traffic. It checks if external dependencies (databases, ML models, caches) are fully loaded. If it fails, the traffic is routed away, but the container is not restarted.     
+```   
+# main.py
+from fastapi import FastAPI, Response
+from fastapi.responses import JSONResponse
+import time
+
+app = FastAPI()
+
+# Simulation of a startup delay (e.g., waiting for database)
+is_ready = False
+
+@app.on_event("startup")
+async def startup_event():
+    global is_ready
+    # Simulate DB connection check
+    time.sleep(2)
+    is_ready = True
+
+# Liveness check: Is the process alive?
+@app.get("/healthz")
+async def liveness():
+    return {"status": "ok", "message": "Alive"}
+
+# Readiness check: Is the application ready to serve traffic?
+@app.get("/readyz")
+async def readiness():
+    if is_ready:
+        return {"status": "ok", "message": "Ready"}
+    return JSONResponse(status_code=503, content={"status": "not_ready"})
+````    
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄      
+══════════════════════════════════════════      
+
+
+
+
+
 
 
 
