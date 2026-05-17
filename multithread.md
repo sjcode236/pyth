@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄      
 ══════════════════════════════════════════      
-
+fastAPI    
 Using Gunicorn for production in Python (Flask/FastAPI) provides stability, concurrent request handling, and process management that development servers lack. Adding dedicated /healthz and /readyz endpoints ensures that orchestration tools like Kubernetes or Docker can monitor app liveness and traffic readiness.     
 1. Implementation Example (FastAPI + Gunicorn)This approach adds endpoints that indicate whether the application is running (liveness) and ready to handle traffic (readiness), such as waiting for database connections   
 3. Explanation of Endpoints    
