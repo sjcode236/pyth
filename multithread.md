@@ -92,6 +92,11 @@ async def readiness():
 ````    
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄      
 ══════════════════════════════════════════      
+Types of Creational Design Patterns in Python:    
+Factory Method     
+ Abstract Factory Method     
+ Singleton Method    
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄      
 
 
 
